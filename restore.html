@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет - востановление пароля</title>
+    <link rel="stylesheet" href="/styles/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="restore-container">
+        <div class="restore-container__header">
+            <h2>Личный кабинет</h2>
+        </div>
+        <div class="restore-container__header2">
+            <h2>Востановление логина/пароля</h2>
+        </div>
+    </div>
+
+    <div class="restore-form__wrapper">
+        <div class="restore-form__left-box">
+            <div class="restore-form__input-info">
+                <p>Введите код с картинки <span>*</span></p>
+            </div>
+            <div class="restore-form__input-info">
+                <p>Введите номер телефона <span>*</span></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="restore-form__img">
+                <img src="https://lk.nfstele.com/?recaptcha=1" alt="">
+                <button class="restore-form__img-change"><i class='bx bx-refresh' style='color:#0050ff'></i>
+                    Другая картинка</button>
+            </div>
+            <form>
+                <div class="restore-form__input-wrapper">
+                    <input class="restore-form__input" type="text">
+                </div>
+                <div class="restore-form__input-wrapper">
+                    <input class="restore-form__input" type="tel" placeholder="+7(999) 999-99-99" name="phone">
+                </div>
+                <div class="restore-form__phone-info">
+                    <p><i class='bx bxs-info-circle' style='color:#345eeb' ></i>
+                        Номер телефона должен быть привязан к Вашей учетной записи</p>
+                </div>
+                <div class="restore-form__btn-wrapper">
+                    <button class="restore-form__btn">Продолжить</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+   <!-- <div class="form">
+                        <label for="">Введите код с картинки</label>
+                        <input type="text">
+                    </div>
+                    <div class="form">
+                        <label for="">Введите номер телефона</label>
+                        <input type="text">
+                    </div>
+
+
+                    
+                    <div class="form__info">
+                        <p href="#" class="form__info">Номер телефона должен быть привязан к другой учетной записи</p>
+                    </div>
+
+                    <button class="form-box__btn">Продолжить</button>
