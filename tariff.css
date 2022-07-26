@@ -1,0 +1,77 @@
+
+/* END OF LEFT MENU */
+
+.right-box_h1
+{
+    margin-bottom: 20px;
+}
+.right-box_desc
+{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.tariffs_main_menu
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tariffs_main_menu a
+{
+    text-decoration: none;
+    /* background: #32b0bc; */
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 22px;
+    border-radius: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 48px;
+    border: 2px solid #32b0bc;
+   
+}
+.tariffs_second_menu span
+{
+    color: white;
+    
+}
+.tariffs_main_menu-internet
+{
+    background: #32b0bc;
+}
+.tariffs_second_menu a
+{
+    color: white;
+}
+.tariffs_second_menu-apartment
+{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.right-box
+{
+    flex-basis: 75%;
+}
+.wrapper h1
+{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.internet_category_items
+{
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+}
