@@ -1,4 +1,5 @@
-# Project-4_internet-provider-website
-In this project I try to copy website of internet provider vidnoe.net. To practice my skill of coding.
+# Сайт интернет-провайдера 
+### Мой третий самостоятельный проект на HTML & CSS
+### Верстал смотря на дизайн готового сайта, код не копировал
 
-#### Link - [click here to see website](https://olirun.github.io/Project-4__Internet-provider-website/).
+#### Сылка на сайт - [Delivery](https://olirun.github.io/3-Project__Internet-provider-website/).
